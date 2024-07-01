@@ -11,15 +11,15 @@
     python             = ">=3.9,<3.13"
     loguru             = "0.7.2"
     bell-avr-libraries = "0.2.0a7"
-    transforms3d       = "0.4.1"
-    numpy              = "1.26.2"
+    transforms3d       = "0.4.2"
+    numpy              = "1.26.4"
     nptyping           = "2.5.0"
 
 [tool.poetry.group.dev.dependencies]
-    pre-commit  = "3.5.0"
-    pytest-cov  = "4.1.0"
-    pytest      = "7.4.3"
-    pytest-mock = "3.12.0"
+    pre-commit  = "3.7.1"
+    pytest-cov  = "5.0.0"
+    pytest      = "8.2.2"
+    pytest-mock = "3.14.0"
 
 [tool.pyright]
     typeCheckingMode           = "basic"
